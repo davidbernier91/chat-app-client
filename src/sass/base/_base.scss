@@ -1,0 +1,20 @@
+  
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: .25rem;
+    box-sizing: inherit;
+    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    line-height: 1.4;
+    color: $color-background-grey;
+    font-family: Helvetica, Arial, sans-serif;
+}

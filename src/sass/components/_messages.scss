@@ -1,0 +1,20 @@
+/* Message Styles */
+
+.message {
+    margin-bottom: 1.6rem;   
+}
+
+.message__name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-right: 0.8rem;
+}
+
+.message__meta {
+    color: $color-grey;
+    font-size: 1.4rem;
+}
+
+.message a {
+    color: $color-message-blue;
+}

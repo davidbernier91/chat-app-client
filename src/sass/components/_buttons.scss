@@ -1,0 +1,26 @@
+button {
+    cursor: pointer;
+    padding: 1.2rem;
+    background: #7C5CBF;
+    border: none;
+    color: white;
+    font-size: 1.6rem;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: $color-button-purple;
+}
+
+button:disabled {
+    cursor: default;
+    background: #7c5cbf94;
+}
+
+.compose button {
+    font-size: 1.4rem;
+}
+
+.centered-form button {
+    width: 100%;
+}
